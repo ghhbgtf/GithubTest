@@ -1,3 +1,4 @@
+//申明这是一个android 应用程序
 apply plugin: 'com.android.application'
 
 android {
@@ -23,6 +24,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
+
     compile project(':convenientbanner')
     compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
     compile files('libs/universal-image-loader-1.9.4.jar')

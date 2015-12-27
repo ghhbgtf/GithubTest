@@ -144,7 +144,9 @@ public class ConvenientBanner<T> extends LinearLayout {
 
     /**
      * 指示器的方向
-     * @param align  三个方向：居左 （RelativeLayout.ALIGN_PARENT_LEFT），居中 （RelativeLayout.CENTER_HORIZONTAL），居右 （RelativeLayout.ALIGN_PARENT_RIGHT）
+     * @param align  三个方向：居左 （RelativeLayout.ALIGN_PARENT_LEFT），
+     *               居中 （RelativeLayout.CENTER_HORIZONTAL），
+     *               居右 （RelativeLayout.ALIGN_PARENT_RIGHT）
      * @return
      */
     public ConvenientBanner setPageIndicatorAlign(PageIndicatorAlign align) {
